@@ -1,12 +1,30 @@
-Skribbl Trainer
-Skribbl Trainer est une application web interactive permettant aux utilisateurs de dessiner des objets et d'entraîner un modèle de machine learning à reconnaître ces objets. Essayez-le dès maintenant sur la page [GitHub Pages](https://jeeezzus.github.io/DVIC_AI_SkribbleTrainer/html/index.html).
+# Skribbl Trainer
 
-Fonctionnalités
-Dessinez et Prédisez : Utilisez le canevas intégré pour dessiner un objet, puis appuyez sur le bouton "Reconnaître" pour que le modèle prédise l'objet dessiné.
-Entraînez votre créativité : Le jeu propose une variété d'objets à dessiner, vous permettant de vous amuser tout en entraînant le modèle.
-Défi de Précision : Essayez d'atteindre un score de précision élevé en dessinant des objets de manière précise et en relevant les défis proposés.
-Comment Utiliser
-Visitez la page [GitHub Pages](https://jeeezzus.github.io/DVIC_AI_SkribbleTrainer/html/index.html).
-Dessinez l'objet indiqué dans l'en-tête "Dessine: [class_name]".
-Cliquez sur le bouton "Reconnaître" pour que le modèle prédise l'objet dessiné.
-Comparez la prédiction avec l'objet réel et découvrez si vous avez gagné ou si vous devez réessayer.
+Un projet d'entraînement au dessin pour le jeu Skribbl.io, où les utilisateurs peuvent dessiner des objets spécifiques et les modèles de réseau de neurones inféreront ce qui a été dessiné.
+
+## Essayer
+
+Vous pouvez essayer l'application sur [GitHub Pages](https://jeeezzus.github.io/DVIC_AI_SkribbleTrainer/html/index.html).
+
+## Fonctionnalités
+
+- **Dessin interactif:** Utilisez la toile interactive pour dessiner l'objet demandé.
+- **Inférence du modèle:** Appuyez sur le bouton "Reconnaître" pour que le modèle d'IA identifie ce que vous avez dessiné.
+- **Réinitialisation:** Si vous voulez essayer de dessiner quelque chose de nouveau, appuyez sur le bouton "Réinitialiser".
+
+## Technologies Utilisées
+
+- **ONNX.js:** Utilisé pour l'inférence du modèle de réseau de neurones.
+- **HTML, CSS, JavaScript:** Langages de base utilisés pour le développement de l'interface utilisateur et des fonctionnalités interactives.
+
+## Comment Utiliser
+
+1. Rendez-vous sur [GitHub Pages](https://jeeezzus.github.io/DVIC_AI_SkribbleTrainer/html/index.html).
+2. Lisez l'objet demandé.
+3. Dessinez l'objet sur la toile.
+4. Appuyez sur le bouton "Reconnaître" pour voir si le modèle d'IA a deviné correctement ce que vous avez dessiné.
+
+
+---
+
+**Note:** Ce projet a atteint une précision de 92.57% sur un ensemble de données de 600 000 images.
