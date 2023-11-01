@@ -11,7 +11,7 @@ const classes = ['porte-avions', 'enclume', 'baignoire', 'papillon', 'voiture', 
 async function loadModel() {
     console.log("Chargement du modèle en cours...");
     model = new onnx.InferenceSession({ backendHint: 'webgl' });
-    await model.loadModel('model3.onnx');
+    await model.loadModel('model4.onnx');
     console.log("Modèle chargé avec succès !");
 }
 
