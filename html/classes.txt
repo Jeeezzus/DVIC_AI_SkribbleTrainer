@@ -1,0 +1,2 @@
+const classes = ['aircraft carrier', 'anvil', 'bathtub', 'butterfly', 'car','door','eyeglasses','flower','guitar','hammer','ice cream','key','light bulb','moon','octopus','pants', 'sailboat', 'television', 'underwear', 'whale'];
+const classes = ['eyeglasses', 'door', 'bathtub', 'butterfly', 'car', 'television', 'aircraft carrier', 'flower', 'guitar', 'hammer', 'ice cream', 'key', 'light bulb', 'moon', 'octopus', 'underwear', 'sailboat', 'anvil', 'pants', 'whale'];
